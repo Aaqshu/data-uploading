@@ -32,7 +32,7 @@ interface MySQLCredentials {
   database: string;
 }
 
-const API_BASE_URL = 'http://localhost:3001';
+const API_BASE_URL = 'https://atomm-57b7d9183bae.herokuapp.com';
 
 export function CSVConverterTB() {
   const [csvData, setCSVData] = useState<string[][]>([]);
